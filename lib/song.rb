@@ -31,7 +31,7 @@ class Song
           @@genre_count[el] ? @@genre_count[el] += 1 : @@genre_count[el] = 1 
           
           end  
-        # @@countIt =  @@genre_count
+        @@genre_count =  @@genre_count
         @@genres.uniq
        
     end
